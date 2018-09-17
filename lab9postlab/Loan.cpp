@@ -1,6 +1,8 @@
 #include <iostream>
 #include "ID.h"
 #include "Loan.h"
+#include "Bank.h"
+#include "Contact.h"
 
 using namespace std;
 
@@ -8,8 +10,9 @@ Loan::Loan(){
 
 }
 
-Loan::Loan(ID I, float am, float rt, int trm){
+Loan::Loan(Bank bk, ID I, float am, float rt, int trm){
 
+  bank = bk;
   id = I;
   amount = am;
   rate = rt;

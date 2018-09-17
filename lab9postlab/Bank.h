@@ -1,8 +1,10 @@
+#include "Contact.h"
+
 class Bank{ //Bank class definition
 
 public:
   Bank();
-  Bank(int bank_ID, CONTACT phone, CONTACT fax);
+  Bank(int bank_ID, Contact phone, Contact fax);
 
 private:
   int bank_ID; //4 digit integer
