@@ -14,3 +14,10 @@ Bank::Bank(int bk_ID, Contact ph, Contact fx){
   phone = ph;
   fax = fx;
 }
+
+void Bank::display(){
+
+  cout << "The bank ID is: " << bank_ID << endl;
+  phone.display();
+  fax.display();
+}

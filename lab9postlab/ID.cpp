@@ -16,5 +16,5 @@ ID::ID(int l, int m, int r){
 
 void ID::display(){
 
-  cout << left << "-" << middle << "-" << right << endl;
+  cout << "Loan ID is: " << left << "-" << middle << "-" << right << endl;
 }

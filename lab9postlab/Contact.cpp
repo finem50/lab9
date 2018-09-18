@@ -16,7 +16,6 @@ Contact::Contact(int p1, int p2, int p3){
 
 void Contact::set(){
 
-
   cout << "Enter area code: \n";
   cin >> part1;
   cout << "Enter exchange code: \n";
@@ -27,5 +26,5 @@ void Contact::set(){
 
 void Contact::display(){
 
-  cout << "(" << part1 << ") " << part2 << "-" part3 << endl;
+  cout << "Phone/Fax number is: " << "(" << part1 << ")" << part2 << "-" << part3 << endl;
 }
